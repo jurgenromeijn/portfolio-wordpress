@@ -8,7 +8,7 @@
   "require": {
     "php": ">=5.4",
     "johnpbloch/wordpress": "4.5.2",
-    "wpackagist-plugin/rest-api": "2.0-beta13.1",
+    "wpackagist-plugin/rest-api": "2.0-beta13",
     "wpackagist-theme/twentyfifteen": "1.5"
   },
   "extra": {
