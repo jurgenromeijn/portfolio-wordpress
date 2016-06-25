@@ -3,6 +3,10 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/jurgenromeijn/wordpress-plugin-projects"
     }
   ],
   "require": {
@@ -10,7 +14,8 @@
     "johnpbloch/wordpress": "4.5.3",
     "wpackagist-plugin/wordpress-importer": "0.6.2",
     "wpackagist-plugin/rest-api": "2.0-beta13",
-    "wpackagist-theme/twentyfifteen": "1.5"
+    "wpackagist-theme/twentyfifteen": "1.5",
+    "jurgenromeijn/wordpress-plugin-projects": "1.2"
   },
   "extra": {
     "wordpress-install-dir": "wp"
