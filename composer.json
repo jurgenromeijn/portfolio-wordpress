@@ -15,10 +15,10 @@
   ],
   "require": {
     "php": ">=5.4",
-    "johnpbloch/wordpress": "4.5.3",
-    "wpackagist-plugin/wordpress-importer": "0.6.2",
-    "wpackagist-plugin/rest-api": "2.0-beta13",
-    "wpackagist-theme/twentyfifteen": "1.5",
+    "johnpbloch/wordpress": "~4.5",
+    "wpackagist-plugin/wordpress-importer": "~0.6",
+    "wpackagist-plugin/rest-api": "~2.0.0.0-beta13",
+    "wpackagist-theme/twentyfifteen": "~1.5",
     "jurgenromeijn/wordpress-plugin-projects": "~1.0",
     "jurgenromeijn/wordpress-plugin-projects-rest": "~1.0"
   },
