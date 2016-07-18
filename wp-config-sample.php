@@ -91,3 +91,6 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+/** Sets up all dependencies required by the project. */
+require_once(__DIR__ . '/vendor/autoload.php');
