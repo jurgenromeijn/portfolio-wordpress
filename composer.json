@@ -41,6 +41,7 @@
     "post-install-cmd": "@install-frontend",
     "post-update-cmd": "@install-frontend",
     "install-frontend": [
+      "rm -rf vendor/jurgenromeijn/portfolio-frontend/dist",
       "cd vendor/jurgenromeijn/portfolio-frontend && npm install",
       "cd vendor/jurgenromeijn/portfolio-frontend && bower install",
       "cd vendor/jurgenromeijn/portfolio-frontend && gulp build"
