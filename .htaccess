@@ -1,0 +1,15 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteCond %{REQUEST_FILENAME} -s [OR]
+    RewriteCond %{REQUEST_FILENAME} -l [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^(.*)$ - [NC,L]
+    RewriteRule ^(.*)\.tpl\.html$ /index.php/$1 [NC,L]
+    RewriteRule ^assets/(.*) /vendor/jurgenromeijn/portfolio-frontend/dist/assets/$1 [NC,L]
+    RewriteRule ^favicon.ico /vendor/jurgenromeijn/portfolio-frontend/dist/favicon.ico [NC,L]
+
+    RewriteRule ^(.*) /index.php [NC,L]
+</IfModule>
+
+# END WordPress
