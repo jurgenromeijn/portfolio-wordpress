@@ -17,19 +17,27 @@
       "url": "https://github.com/jurgenromeijn/wordpress-theme-portfolio"
     },
     {
-      "type": "git",
-      "url": "https://github.com/jurgenromeijn/portfolio-frontend"
+      "type": "package",
+      "package": {
+        "name": "jurgenromeijn/portfolio-frontend",
+        "version": "dev-master",
+        "source": {
+          "url": "https://github.com/jurgenromeijn/portfolio-frontend",
+          "type": "git",
+          "reference": "origin/master"
+        }
+      }
     }
   ],
   "require": {
     "php": ">=5.4",
-    "johnpbloch/wordpress": "~4.5",
+    "johnpbloch/wordpress": "~4.6",
     "wpackagist-plugin/wordpress-importer": "~0.6",
     "wpackagist-plugin/rest-api": "2.0-beta9",
     "wpackagist-plugin/advanced-custom-fields": "~4.4",
     "wpackagist-plugin/custom-contact-forms": "~7.8",
     "wpackagist-theme/twentyfifteen": "~1.5",
-    "jurgenromeijn/portfolio-frontend": "~1.0",
+    "jurgenromeijn/portfolio-frontend": "dev-master",
     "jurgenromeijn/wordpress-theme-portfolio": "~1.0",
     "jurgenromeijn/wordpress-plugin-projects": "~1.0",
     "jurgenromeijn/wordpress-plugin-projects-rest": "~1.0"
