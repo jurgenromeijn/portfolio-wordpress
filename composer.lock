@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b0c540a3e9ff50767433db6242e818b6",
-    "content-hash": "4807225e4559e0f999806f895e3b14d7",
+    "hash": "4e00d6fc3749cad6848154dcfd37a92a",
+    "content-hash": "b6c6e2acb6e8618e358fbaefbe12870c",
     "packages": [
         {
             "name": "composer/installers",
@@ -212,11 +212,11 @@
         },
         {
             "name": "jurgenromeijn/wordpress-plugin-projects",
-            "version": "1.5.2",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jurgenromeijn/wordpress-plugin-projects",
-                "reference": "42ad69cbc83c584a127d8c89ab48fbcbc99ed030"
+                "reference": "39ed48dc706997d86e62e4cb2db67e18e264f487"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -253,7 +253,7 @@
                 "projects",
                 "themes"
             ],
-            "time": "2016-07-18 18:06:15"
+            "time": "2016-09-11 16:53:42"
         },
         {
             "name": "jurgenromeijn/wordpress-plugin-projects-rest",
