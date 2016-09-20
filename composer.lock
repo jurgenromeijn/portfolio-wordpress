@@ -307,11 +307,11 @@
         },
         {
             "name": "jurgenromeijn/wordpress-theme-portfolio",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jurgenromeijn/wordpress-theme-portfolio",
-                "reference": "54b321735ddac53beaaec687ade6a6acfd982a3b"
+                "reference": "86ec04f038fd599367d2710dcab4f3aec90a7a39"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -340,7 +340,7 @@
                 "rest",
                 "theme"
             ],
-            "time": "2016-09-11 11:54:49"
+            "time": "2016-09-20 15:12:52"
         },
         {
             "name": "symfony/config",
@@ -558,15 +558,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "4.4.8",
+            "version": "4.4.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "tags/4.4.8"
+                "reference": "tags/4.4.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.8.zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.9.zip",
                 "reference": null,
                 "shasum": null
             },
