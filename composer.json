@@ -36,6 +36,7 @@
     "wpackagist-plugin/rest-api": "2.0-beta9",
     "wpackagist-plugin/advanced-custom-fields": "~4.4",
     "wpackagist-plugin/custom-contact-forms": "~7.8",
+    "wpackagist-plugin/wp-super-cache": "~1.4",
     "wpackagist-theme/twentyfifteen": "~1.5",
     "jurgenromeijn/portfolio-frontend": "dev-master",
     "jurgenromeijn/wordpress-theme-portfolio": "~1.0",

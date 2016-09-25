@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4e00d6fc3749cad6848154dcfd37a92a",
-    "content-hash": "b6c6e2acb6e8618e358fbaefbe12870c",
+    "hash": "b1a4de7a9d19fce506fdf8b3f03e5502",
+    "content-hash": "e83ec78b20a85f9e9708a46b63d4ff71",
     "packages": [
         {
             "name": "composer/installers",
@@ -208,7 +208,7 @@
                 "reference": "origin/master"
             },
             "type": "library",
-            "time": "2016-09-07 15:10:34"
+            "time": "2016-09-25 14:50:33"
         },
         {
             "name": "jurgenromeijn/wordpress-plugin-projects",
@@ -635,6 +635,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-importer/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-super-cache",
+            "version": "1.4.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-super-cache/",
+                "reference": "tags/1.4.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-super-cache.1.4.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-super-cache/"
         },
         {
             "name": "wpackagist-theme/twentyfifteen",
