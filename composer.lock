@@ -307,11 +307,11 @@
         },
         {
             "name": "jurgenromeijn/wordpress-theme-portfolio",
-            "version": "1.0.5",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jurgenromeijn/wordpress-theme-portfolio",
-                "reference": "86ec04f038fd599367d2710dcab4f3aec90a7a39"
+                "reference": "fda8bd8b8adf0e693f684318576d9a2e8704fd3c"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -340,7 +340,7 @@
                 "rest",
                 "theme"
             ],
-            "time": "2016-09-20 15:12:52"
+            "time": "2016-09-26 18:48:11"
         },
         {
             "name": "symfony/config",
